@@ -1,0 +1,120 @@
+div {
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 350px;
+    margin-left: 380px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+.img{
+    width: 525px;
+    height: 200px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 20px;
+}
+body {
+    background-color: white;
+}
+
+.heading {
+    color: black;
+    text-align: center;
+
+}
+#h2{
+    margin-right: 15px;
+    margin-left: 15px;
+    text-align: left;
+    color: blue;
+}
+#text1{
+    color: black;
+    text-align: center;
+    text-shadow: 5px 10px 5px grey;
+}
+
+#paragraf {
+    font-family: verdana;
+    font-size: 12px;
+    margin-right: 15px;
+    margin-left: 15px;
+    text-align: justify;
+}
+
+#box {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    transform: rotate(-45deg);
+}
+#box2 {
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    transform: scale(1,0.5);
+}
+#box3 {
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+    transform: skewX(5deg);
+}
+.box4{
+    width: 60px;
+    height: 20px;
+    background-color: blue;
+    transition: width 2s, background-color 2s;
+    transition-timing-function: ease-in-out;
+}
+.box4:hover {
+    width: 200px;
+    height: 50px;
+    background-color: red;
+}
+#card{
+    background: blue;
+    height: 100px; width: 100px;
+    transition: transform 2s;
+    border: 2px solid black;
+}
+#card:hover{
+transform: rotateY(180deg);
+}
+
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+textarea{
+   width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=submit]:hover {
+    background-color: #45a049;
+}
