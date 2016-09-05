@@ -1,0 +1,6 @@
+news: https://edimdendidiwangga.github.io/news/first-news.html
+contact : https://edimdendidiwangga.github.io/
+cerita bergambar : https://edimdendidiwangga.github.io/blog/2016-09-02_first-story.html
+jumat:
+https://edimdendidiwangga.github.io/web-dev.html
+https://edimdendidiwangga.github.io/website-evaluation.html
