@@ -4,3 +4,8 @@ cerita bergambar : https://edimdendidiwangga.github.io/blog/2016-09-02_first-sto
 jumat:
 https://edimdendidiwangga.github.io/web-dev.html
 https://edimdendidiwangga.github.io/website-evaluation.html
+https://edimdendidiwangga.github.io/web-design.html
+https://edimdendidiwangga.github.io/wireframes.html
+https://edimdendidiwangga.github.io/core-values.html
+sabtu-minggu:
+https://edimdendidiwangga.github.io/reflection.html
