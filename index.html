@@ -1,89 +1,118 @@
- <!DOCTYPE html>
- <html>
- <head>
-
- 	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-	<meta charset="utf-8">
- 	<title>Bootcamp  Hacktiv8</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
-	<meta name="description" content="pengenalan, hacktiv8, coding, bootcamp, javascript, web, developer">
-	<meta name="author" content="">
- 	<link rel="stylesheet" type="text/css"  href="styles/index.css" >
- </head>
- <body>
- <!-- Perkenalan Tentang saya -->
- <div>
- <h1 class="heading">Pengenalan</h1>
- <p id="paragraf">Perkenalkan nama saya <b>Edim Dendi Diwangga</b>. Nama pangilan <i>Dendi</i>. Saya dari kota <i>Jogjakarta</i>. Alasan bergabung di <a href="hacktiv8.com" target="_blank">Hactiv8</a> berharap menjadi good developer, menulis koding yang baik, dan meningkatkan skill programming. Programmer idola <b>Steve Jobs</b> pendiri Apple.</p>
- <p id="paragraf"> Ia dikenal luas sebagai seorang visioner, perintis dan genius dalam bidang bisnis, inovasi, dan desain produk, dan orang yang berhasil mengubah wajah dunia modern, merevolusi enam industri yang berbeda, dan "contoh bagi semua kepala eksekutif".</p>
-
- 
- 
- <hr>
- <!-- Link facebook dan email -->
-
-<h2 class="heading">Link Facebook dan Email</h2>
- <p id="paragraf">Facebook: <a href="https://www.facebook.com/edimdendy" target="_blank">Edim Dendy</a></p>
-<p id="paragraf">Email : <a href="mailto:edimdendy@gmail.com">edimdendy@gmail.com</a></p>
-
-
-<hr>
-<h2 id="text1">My Photo</h2>
-<a href="images/edim.jpg"><img src="images/edim.jpg" width="150" height="150"></a><br>
-
-<hr>
-
-<h2 class="heading">Ordered List with Numbers</h2>
-<ol type="1">
-  <li>List 1</li>
-  <li>List 2</li>
-  <li>List 3</li>
-</ol>
-<br>
-
-<hr>
-
-<h2 class="heading">An unordered HTML list</h2>
-
-<ul>
-  <li>List 1</li>
-  <li>List 2</li>
-  <li>List 3</li>
-</ul>
-<br>
-</div>
-<div>
-
-<div id="box">transform rotate</div>
-<div id="box2">scale</div>
-<div id="box3">skew</div>
-<div class="box4">Transition</div>
-<div id="card">flip</div>
-</div>
-<div>
-<fieldset>
- <legend>Contact:</legend>
-  <form>
-    <label for="fname">First Name</label>
-    <input type="text" id="fname" name="firstname">
-
-    <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname">
-
-    <label for="country">State</label>
-    <select id="country" name="country">
-      <option value="australia">Australia</option>
-      <option value="canada">Canada</option>
-      <option value="usa">USA</option>
-    </select>
-    <label for="lname">Message</label>
-    <textarea name=""></textarea>
-    <input type="submit" value="Submit">
-  </form>
-  </fieldset>
-
-</div>
-
-
- </body>
- </html>
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>html part 3</title>
+      <link href="style.css" rel="stylesheet" type="text/css">
+   </head>
+   <body>
+      <div class="header">
+         <h1>
+            EDIM WEBPAGE
+         </h1>
+         <br>
+         <h2>
+            Welcome everyone!
+         </h2>
+      </div>
+      <div class="body">
+         <img id="img" src="image/BDG.jpg">
+         <p><b>Hi, I am Edim Dendi and this is my first webpage. Let's be a fullstack developer with Hacktiv8.</b>
+         <p><b>This is my target list:</b></p>
+         <ol>
+            <li>Being fullstack developer</li>
+            <li>Create a wonderful website</li>
+         </ol>
+         <p><b>Here is my contact :</b></p>
+         <ul>
+            <li>Email: edimdendy@gmail.com</li>
+            <li>Phone: 085794279912</li>
+         </ul>
+         <table class="tabel" border="1">
+            <tr>
+               <td></td>
+               <td>
+                  Morning
+               </td>
+               <td>
+                  Afternoon
+               </td>
+               <td>
+                  Evening
+               </td>
+               <td>
+                  Night
+               </td>
+            </tr>
+            <tr>
+               <td>
+                  Monday
+               </td>
+               <td id="act" colspan="4" rowspan="7">
+                  Eat, Coding, & Sleep
+               </td>
+            </tr>
+            <tr>
+               <td>
+                  Tuesday
+               </td>
+            </tr>
+            <tr>
+               <td>
+                  Wednesday
+               </td>
+            </tr>
+            <tr>
+               <td>
+                  Thursday
+               </td>
+            </tr>
+            <tr>
+               <td>
+                  Friday
+               </td>
+            </tr>
+            <tr>
+               <td>
+                  Saturday
+               </td>
+            </tr>
+            <tr>
+               <td>
+                  Sunday
+               </td>
+            </tr>
+         </table>
+      </div>
+      <div class="comment">
+         <h3 align="center">
+            Leave your comment below
+         </h3>
+         <form>
+            <label>First name</label><br>
+            <input type="text"><br>
+            <label>Last name</label><br>
+            <input type="text"><br>
+            <label>Gender</label><br>
+            <input type="radio" name="group2" value="Male" checked> Male<br>
+            <input type="radio" name="group2" value="Female"> Female<br>
+            <input type="radio" name="group2" value="Other"> Other
+            <br>
+            <label>Favourite Cars:</label> <br>
+            <select>
+               <option>BMW</option>
+               <option>INOVA</option>
+               <option>HONDA JAZZ</option>
+            </select>
+            <br>
+            <label>language Spoken:</label><br>
+            <input type="checkbox" name="option1" value="Bahasa Indonesia"> Bahasa Indonesia<br>
+            <input type="checkbox" name="option2" value="English" checked> English<br>
+            <input type="checkbox" name="option3" value="Other"> Other<br>
+            <label>Bio:</label><br>
+            <textarea rows="10" cols="25"></textarea>
+            <br>
+            <input type="submit" value="Submit"></input>
+         </form>
+      </div>
+   </body>
+</html>

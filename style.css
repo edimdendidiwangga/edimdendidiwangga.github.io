@@ -1,0 +1,90 @@
+body { 
+  background-image: url("image/BDG.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: block;
+  font-family: serif, Arial, Courier;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  border-style: dashed;
+  border-color: black;
+  border-width: thick;
+  box-sizing: border-box;
+  position: relative;
+  line-height : 10px;
+  padding: 20px 0px;
+  margin: 5px 0px;
+  color: #d20a0a;
+  background-color: yellow;
+}
+
+.header h1 {
+  font-family: sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  word-spacing: 0.03em;
+}
+
+.header h2 {
+  font-family: sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  font-style: italic;
+  letter-spacing: 0em;
+}
+
+.body {
+  background-color: rgb(255, 255, 255);
+}
+
+.body{
+  border: 1px solid #000;
+  box-sizing: border-box;
+  margin: 40px;
+  padding: 40px;
+}
+
+
+#img {
+  width: 250px;
+  height: 250px;
+  border: 3px solid black;
+  border-radius: 500px;
+  margin-left: 400px;
+  margin-right: 400px;
+}
+
+.tabel {
+  border: 1px solid; 
+}
+
+#act {
+  color: rgb(175, 8, 8);
+  font-size: 30px;
+  text-align: center;
+  font-style: bold;
+}
+
+.comment {
+  font-family: Courier, Arial, serif;
+  color: rgb(220, 20, 60);
+  text-transform: capitalize;
+  background: -webkit-linear-gradient(yellow, #7ef436);
+  border-style: none none none outset;
+  border-radius: 50px 0px 0px 50px;
+  border-width: 10px;
+  border-color: #000;
+  box-sizing: border-box;
+  width: 50%;
+  height: auto;
+  float: right;
+  clear: right;
+  margin-right: -70px;
+  padding: 30px 40px;
+}
+
