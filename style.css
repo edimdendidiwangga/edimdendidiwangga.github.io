@@ -1,6 +1,6 @@
-/*background-image: url("images/BDG.jpg");*/
+
 body { 
-  background-color : yellow;
+  background-image: url("images/edim.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
