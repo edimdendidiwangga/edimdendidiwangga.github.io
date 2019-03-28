@@ -1,0 +1,299 @@
+
+body {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  height: auto;
+  margin: auto;
+  border: 1px solid #ccc;
+}
+
+.container .info-profile {
+  width: 30%;
+  height: auto;
+  background-color: #2d2d2d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container .info-profile .img-wrap {
+  height: 15em;
+  width: 10em;
+}
+
+.container .info-profile .img-wrap .img-profile {
+  border: 1px solid #fff;
+  margin-top: 2em;
+  max-width: 100%; 
+  display:block; 
+  height: auto;
+  border-radius: 5em;
+  -webkit-border-radius: 5em;
+  -moz-border-radius: 5em;
+  -ms-border-radius: 5em;
+  -o-border-radius: 5em;
+}
+
+.container .info-profile .info {
+  width: 85%;
+  padding-bottom: 2em;
+  align-self: flex-end;
+}
+
+.container .info-profile .info .info-name {
+  font-size: 1em;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #fff;
+  padding-bottom: 0.8em;
+  border-bottom: 1px solid #fff
+}
+
+.container .info-profile .info .info-item {
+  padding: 0.5em 0.5em 0.5em 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.container .info-profile .info .info-item .icon {
+  padding-right: 0.7em;
+}
+
+.container .info-profile .info .info-item .icon img {
+  width: 2em;
+  height: 2em;
+}
+
+.section {
+  width: 95%;
+  height: auto;
+}
+
+.container .info-profile .info .info-item .section {
+  height: 2.3em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: auto;
+}
+
+.container .info-profile .info .info-item .label {
+  color: #fff;
+  font-size: 0.9em;
+  font-weight: 600;
+  letter-spacing: 1px;
+  letter-spacing: 1px;
+  padding-bottom: 0.3em
+}
+
+.container .info-profile .info .info-item .value {
+  color: #fff;
+  font-size: 0.8em;
+  letter-spacing: 1px;
+  line-height: 1.2em;
+}
+
+.container .info-profile .info .info-item .value a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.content-profile {
+  width: 70%;
+  background-color: #fff;
+  padding: 1em;
+}
+
+.content-profile .head {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-bottom: 2em;
+}
+
+h1, h3 {
+  margin: 0;
+  padding: 0;
+}
+
+.content-profile .container-profile {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.content-profile .container-profile .title {
+  border-bottom: 2px solid grey;
+  padding-bottom: 0.5em;
+  font-weight: bold;
+  font-size: 1em;
+}
+
+.content-profile .container-profile .work-item {
+  width: 100%;
+  padding-top: 0.5em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.content-profile .container-profile .work-item .range-time {
+  width: 20%;
+  font-weight: 600;
+  font-size: 0.9em;
+}
+
+.content-profile .container-profile .work-item .work-content {
+  width: 80%;
+  padding-bottom: 1em;
+  display: flex;
+  flex-direction: column;
+}
+
+.content-profile .container-profile .work-item .work-content .work-name {
+  font-weight: 600;
+  font-size: 0.9em;
+  padding-bottom: 0.3em;
+}
+
+.content-profile .container-profile .work-item .work-content .work-desc {
+  font-size: 0.9em;
+  line-height: 1.3em;
+}
+
+
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  .container {
+    width: 70%;
+  }
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  .container {
+    width: 70%;
+  }
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  .container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container .info-profile {
+    width: 100%;
+  }
+
+  .container .info-profile .info {
+    align-self: center;
+  }
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  .container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container .info-profile {
+    width: 100%;
+  }
+
+  .container .info-profile .info {
+    align-self: center;
+  }
+
+  .content-profile {
+    width: 100%;
+  }
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  .container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container .info-profile {
+    width: 100%;
+  }
+
+  .container .info-profile .info {
+    align-self: center;
+  }
+
+  .content-profile {
+    width: 100%;
+  }
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  .container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container .info-profile {
+    width: 100%;
+  }
+
+  .container .info-profile .info {
+    align-self: center;
+  }
+
+  .content-profile {
+    width: 100%;
+  }
+  
+}
